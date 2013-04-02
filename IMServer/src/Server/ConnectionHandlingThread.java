@@ -21,7 +21,6 @@ public class ConnectionHandlingThread extends Thread
 		InputStream inStr;
 		OutputStream outStr;
 		
-		
 		try
 		{
 			inStr = socket.getInputStream();
